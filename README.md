@@ -11,9 +11,8 @@
 const analyze = require('tradingview-technical-analysis');
 const tickers = ['BINANCE:BTCUSDT'];
 const resolutions = ['1m','5m','15m','1h','4h','1d','1W','1M'];
-const indicators = ['Recommend.All'];
 
-const results = analyze(tickers, resolutions, indicators);
+const results = analyze(tickers, resolutions);
 
 console.log(results)
 
@@ -94,7 +93,7 @@ The following values are accepted:
 
 ```
 
-### Indicators
+## Indicators
 
 The following indicators are (or will be) supported. Lines commented out are not yet implemented.
 

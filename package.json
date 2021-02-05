@@ -1,5 +1,5 @@
 {
-  "name": "tradingview-technical-analysis",
+  "name": "@tradefren/tradingview-technical-analysis",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/ppajer/tradingview-technical-analysis#readme",
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "devDependencies": {}
 }
